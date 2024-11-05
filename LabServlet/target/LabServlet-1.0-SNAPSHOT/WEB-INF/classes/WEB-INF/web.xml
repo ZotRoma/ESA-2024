@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+        xmlns="https://jakarta.ee/xml/ns/jakartaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+        version="6.0">
+
+
+<!-- Название приложения -->
+        <display-name>My Application</display-name>
+
+        <!-- Настройка сервлета PlayerServlet -->
+        <!--<servlet>
+            <servlet-name>PlayerServlet</servlet-name>
+            <servlet-class>com.example.labservlet.services.PlayersServlet</servlet-class>
+        </servlet>
+
+        &lt;!&ndash; Маршрут сервлета PlayerServlet для URL /players &ndash;&gt;
+        <servlet-mapping>
+            <servlet-name>PlayerServlet</servlet-name>
+            <url-pattern>/players</url-pattern>
+        </servlet-mapping>
+
+        &lt;!&ndash; Настройка страницы по умолчанию &ndash;&gt;
+        <welcome-file-list>
+            <welcome-file>index.jsp</welcome-file>
+        </welcome-file-list>
+
+        &lt;!&ndash; Настройка параметров JSP для кодировки UTF-8 &ndash;&gt;
+        <jsp-config>
+            <jsp-property-group>
+                <url-pattern>*.jsp</url-pattern>
+                <page-encoding>UTF-8</page-encoding>
+            </jsp-property-group>
+        </jsp-config>-->
+
+        <!-- Настройки для фильтров, слушателей и других компонентов можно добавлять здесь -->
+    </web-app>

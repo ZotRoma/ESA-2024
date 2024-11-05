@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+    <persistence-unit name="myPersistenceUnit" transaction-type="RESOURCE_LOCAL">
+
+        <!-- Указание провайдера JPA -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <!-- Определение сущностей -->
+        <class>com.example.labservlet.entities.Player</class>
+        <class>com.example.labservlet.entities.PlayerGameStatistic</class>
+        <class>com.example.labservlet.entities.Game</class>
+
+        <properties>
+            <!-- JDBC настройки для PostgreSQL -->
+            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/mydatabase"/>
+            <property name="jakarta.persistence.jdbc.user" value="myusername"/>
+            <property name="jakarta.persistence.jdbc.password" value="mypassword"/>
+
+            <!-- Hibernate настройки -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+
+            <!-- Автоматическое создание и обновление схемы базы данных -->
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+
+            <!-- Вывод SQL-запросов в лог -->
+            <property name="hibernate.show_sql" value="true"/>
+
+            <!-- Форматирование SQL-запросов для удобства чтения -->
+            <property name="hibernate.format_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
