@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b255e401-6fd3-4e53-b590-2aa968dd2c6b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../LabServlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LabServlet/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b255e401-6fd3-4e53-b590-2aa968dd2c6b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +62,7 @@
     "Tomcat Server.Tomcat 10.1.31.executor": "Run",
     "git-widget-placeholder": "#2 on main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/ВУЗ/Магистратура/1 Semmestr/KorpSeti/Labs/LabServletEJB/target/LabServlet-1.0-SNAPSHOT.war",
+    "last_opened_file_path": "D:/ВУЗ/Магистратура/1 Semmestr/KorpSeti/Labs/LabSpring",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -185,7 +183,7 @@
       <workItem from="1731517760180" duration="597000" />
       <workItem from="1731695444014" duration="593000" />
       <workItem from="1734436551783" duration="583000" />
-      <workItem from="1736689359978" duration="1954000" />
+      <workItem from="1736689359978" duration="2558000" />
     </task>
     <servers />
   </component>
