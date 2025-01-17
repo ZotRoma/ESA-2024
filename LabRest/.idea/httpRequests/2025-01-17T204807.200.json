@@ -1,0 +1,46 @@
+{
+  "games": [
+    {
+      "time": 2090,
+      "numberKillsRadiant": 15,
+      "numberKillsDire": 20,
+      "whoWin": "Dire",
+      "gameId": 102
+    },
+    {
+      "time": 1234,
+      "numberKillsRadiant": 12,
+      "numberKillsDire": 21,
+      "whoWin": "Radiant",
+      "gameId": 103
+    },
+    {
+      "time": 1423,
+      "numberKillsRadiant": 32,
+      "numberKillsDire": 33,
+      "whoWin": "Radiant",
+      "gameId": 202
+    },
+    {
+      "time": 122,
+      "numberKillsRadiant": 2,
+      "numberKillsDire": 1,
+      "whoWin": "Dire",
+      "gameId": 252
+    },
+    {
+      "time": 1980,
+      "numberKillsRadiant": 15,
+      "numberKillsDire": 21,
+      "whoWin": "Dire",
+      "gameId": 1
+    },
+    {
+      "time": 1323,
+      "numberKillsRadiant": 15,
+      "numberKillsDire": 16,
+      "whoWin": "Dire",
+      "gameId": 352
+    }
+  ]
+}

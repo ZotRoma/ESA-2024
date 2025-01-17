@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gameList>
+    <games>
+        <gameId>102</gameId>
+        <numberKillsRadiant>15</numberKillsRadiant>
+        <numberKillsDire>20</numberKillsDire>
+        <whoWin>Dire</whoWin>
+        <time>2090</time>
+    </games>
+    <games>
+        <gameId>103</gameId>
+        <numberKillsRadiant>12</numberKillsRadiant>
+        <numberKillsDire>21</numberKillsDire>
+        <whoWin>Radiant</whoWin>
+        <time>1234</time>
+    </games>
+    <games>
+        <gameId>202</gameId>
+        <numberKillsRadiant>32</numberKillsRadiant>
+        <numberKillsDire>33</numberKillsDire>
+        <whoWin>Radiant</whoWin>
+        <time>1423</time>
+    </games>
+    <games>
+        <gameId>252</gameId>
+        <numberKillsRadiant>2</numberKillsRadiant>
+        <numberKillsDire>1</numberKillsDire>
+        <whoWin>Dire</whoWin>
+        <time>122</time>
+    </games>
+    <games>
+        <gameId>1</gameId>
+        <numberKillsRadiant>15</numberKillsRadiant>
+        <numberKillsDire>21</numberKillsDire>
+        <whoWin>Dire</whoWin>
+        <time>1980</time>
+    </games>
+    <games>
+        <gameId>352</gameId>
+        <numberKillsRadiant>15</numberKillsRadiant>
+        <numberKillsDire>16</numberKillsDire>
+        <whoWin>Dire</whoWin>
+        <time>1323</time>
+    </games>
+</gameList>

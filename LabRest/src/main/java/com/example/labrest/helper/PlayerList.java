@@ -1,0 +1,17 @@
+package com.example.labrest.helper;
+
+import com.example.labrest.model.Player;
+import jakarta.xml.bind.annotation.XmlAttribute;
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlRootElement;
+
+import java.util.List;
+
+@XmlRootElement
+public class PlayerList {
+    private List<Player> players;
+
+    @XmlElement
+    public List<Player> getPlayers() {return players;}
+    public void setPlayers(List<Player> players) {this.players = players;}
+}

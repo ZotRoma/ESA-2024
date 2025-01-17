@@ -1,0 +1,789 @@
+DELETE http://localhost:8080/LabRest_war/games?id=404
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T213642.200.json
+
+###
+
+DELETE http://localhost:8080/LabRest_war/games?id=15
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T213634.404.json
+
+###
+
+GET http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/xml
+Accept: application/xml
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T213557.200.xml
+
+###
+
+DELETE http://localhost:8080/LabRest_war/players?id=402
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T211814.500.html
+
+###
+
+GET http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/xml
+Accept: application/xml
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T211630.200.xml
+
+###
+
+DELETE http://localhost:8080/LabRest_war/playersGames?id=15
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-17T210918.200.json
+
+###
+
+POST http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "deaths": 3,
+  "heroName": "Gyrocopter",
+  "playerGameId": 2,
+  "lastHit": 463,
+  "kills": 18,
+  "gameId": 402,
+  "playerId": 2,
+  "assists": 15
+}
+
+<> 2025-01-17T210912.200.json
+
+###
+
+DELETE http://localhost:8080/LabRest_war/players?id=402
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T210833.500.html
+
+###
+
+DELETE http://localhost:8080/LabRest_war/players?id=402
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T210828.500.html
+
+###
+
+DELETE http://localhost:8080/LabRest_war/players?id=403
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T210818.404.json
+
+###
+
+DELETE http://localhost:8080/LabRest_war/games?id=15
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T210335.404.json
+
+###
+
+DELETE http://localhost:8080/LabRest_war/games?id=1
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T210245.500.html
+
+###
+
+DELETE http://localhost:8080/LabRest_war/games?id=403
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T210232.500.html
+
+###
+
+DELETE http://localhost:8080/LabRest_war/games?id=403
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-17T205942.500.html
+
+###
+
+DELETE http://localhost:8080/LabRest_war/games?id=403
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-17T205941.500.html
+
+###
+
+DELETE http://localhost:8080/LabRest_war/games?id=403
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-17T205920.500.html
+
+###
+
+PUT http://localhost:8080/LabRest_war/games
+Content-Type: application/json
+Content-Length: 112
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "gameId" : 404,
+  "numberKillsRadiant": 15,
+  "numberKillsDire": 21,
+  "whoWin": "Radiant",
+  "time": 1980
+}
+
+<> 2025-01-17T205805.200.json
+
+###
+
+POST http://localhost:8080/LabRest_war/games
+Content-Type: application/json
+Accept: application/xml
+Content-Length: 92
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+
+  "numberKillsRadiant": 11,
+  "numberKillsDire": 16,
+  "whoWin": "Dire",
+  "time": 1113
+}
+
+<> 2025-01-17T205646.200.xml
+
+###
+
+POST http://localhost:8080/LabRest_war/games
+Content-Type: application/json
+Accept: application/xml
+Content-Length: 92
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+
+  "numberKillsRadiant": 15,
+  "numberKillsDire": 16,
+  "whoWin": "Dire",
+  "time": 1323
+}
+
+<> 2025-01-17T205600.200.xml
+
+###
+
+POST http://localhost:8080/LabRest_war/games
+Content-Type: application/json
+Accept: application/json
+Content-Length: 92
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+
+  "numberKillsRadiant": 15,
+  "numberKillsDire": 16,
+  "whoWin": "Dire",
+  "time": 1323
+}
+
+<> 2025-01-17T205543.200.json
+
+###
+
+GET http://localhost:8080/LabRest_war/games
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-17T204807.200.json
+
+###
+
+PUT http://localhost:8080/LabRest_war/games
+Content-Type: application/json
+Content-Length: 107
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "gameId" : 1,
+  "numberKillsRadiant": 15,
+  "numberKillsDire": 21,
+  "whoWin": "Dire",
+  "time": 1980
+}
+
+<> 2025-01-17T204727.200.json
+
+###
+
+GET http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/xml
+Accept: application/xml
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T203041.200.xml
+
+###
+
+GET http://localhost:8080/LabRest_war/games
+Content-Type: application/xml
+Accept: application/xml
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 97
+
+{
+  "gameId": 0,
+  "numberKillsRadiant": 0,
+  "numberKillsDire": 0,
+  "whoWin": "",
+  "time": 0
+}
+
+<> 2025-01-17T203023.200.xml
+
+###
+
+POST http://localhost:8080/LabRest_war/games
+Content-Type: application/xml
+Accept: application/xml
+Content-Length: 92
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+
+  "numberKillsRadiant": 15,
+  "numberKillsDire": 16,
+  "whoWin": "Dire",
+  "time": 1323
+}
+
+<> 2025-01-17T203012.400.html
+
+###
+
+GET http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/xml
+Accept: application/xml
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T202803.200.xml
+
+###
+
+GET http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/xml
+Accept: application/xml
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T202541.500.html
+
+###
+
+POST http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "deaths": 3,
+  "heroName": "Gyrocopter",
+  "playerGameId": 2,
+  "lastHit": 463,
+  "kills": 18,
+  "gameId": 402,
+  "playerId": 2,
+  "assists": 15
+}
+
+<> 2025-01-17T202536.200.json
+
+###
+
+DELETE http://localhost:8080/LabRest_war/playersGames?id=14
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-17T171050.200.json
+
+###
+
+DELETE http://localhost:8080/LabRest_war/playersGames?14=
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-17T171031.400.html
+
+###
+
+POST http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "deaths": 3,
+  "heroName": "Gyrocopter",
+  "playerGameId": 2,
+  "lastHit": 463,
+  "kills": 18,
+  "gameId": 402,
+  "playerId": 2,
+  "assists": 15
+}
+
+<> 2025-01-17T170954.200.json
+
+###
+
+PUT http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "playerGameId": 13,
+  "deaths": 3,
+  "heroName": "Gyrocopter",
+  "lastHit": 5143,
+  "kills": 18,
+  "game": 402,
+  "player": 2,
+  "assists": 15
+}
+
+<> 2025-01-17T170932.200.json
+
+###
+
+PUT http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+Content-Length: 152
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "playerGameId": 13,
+  "deaths": 3,
+  "heroName": "Gyrocopter",
+  "lastHit": 5143,
+  "kills": 18,
+  "gameId": 402,
+  "playerId": 2,
+  "assists": 15
+}
+
+<> 2025-01-17T170920.200.json
+
+###
+
+PUT http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+Content-Length: 173
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "playerGameId": 13,
+  "deaths": 3,
+  "heroName": "Gyrocopter",
+  "playerGameId": 2,
+  "lastHit": 5143,
+  "kills": 18,
+  "gameId": 402,
+  "playerId": 2,
+  "assists": 15
+}
+
+<> 2025-01-17T170841.200.json
+
+###
+
+PUT http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+Content-Length: 173
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "playerGameId": 13,
+  "deaths": 3,
+  "heroName": "Gyrocopter",
+  "playerGameId": 2,
+  "lastHit": 5143,
+  "kills": 18,
+  "gameId": 402,
+  "playerId": 2,
+  "assists": 15
+}
+
+<> 2025-01-17T170833.200.json
+
+###
+
+GET http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T170738.200.json
+
+###
+
+GET http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/xml
+Accept: application/xml
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T170708.200.xml
+
+###
+
+POST http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "deaths": 3,
+  "heroName": "Gyrocopter",
+  "playerGameId": 2,
+  "lastHit": 463,
+  "kills": 18,
+  "gameId": 402,
+  "playerId": 2,
+  "assists": 15
+}
+
+<> 2025-01-17T170623.200.json
+
+###
+
+GET http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/xml
+Accept: application/xml
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T170610.200.xml
+
+###
+
+POST http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "deaths": 3,
+  "heroName": "Gyrocopter",
+  "playerGameId": 2,
+  "lastHit": 463,
+  "kills": 18,
+  "gameId": 402,
+  "playerId": 2,
+  "assists": 15
+}
+
+<> 2025-01-17T165714.500.html
+
+###
+
+POST http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+Content-Length: 365
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "deaths": 3,
+  "heroName": "Gyrocopter",
+  "playerGameId": 2,
+  "lastHit": 463,
+  "kills": 18,
+  "game": {
+    "time": 2090,
+    "numberKillsRadiant": 15,
+    "whoWin": "Dire",
+    "numberKillsDire": 20,
+    "gameId": 102
+  },
+  "player": {
+    "name": "Nikita",
+    "favoriteCharacterName": "Zeus",
+    "rating": 1800,
+    "playerId": 52
+  },
+  "assists": 15
+}
+
+<> 2025-01-17T165658.400.html
+
+###
+
+POST http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+Content-Length: 369
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "deaths": 3,
+  "heroName": "Gyrocopter",
+  "playerGameId": 2,
+  "lastHit": 463,
+  "kills": 18,
+  "gameId": {
+    "time": 2090,
+    "numberKillsRadiant": 15,
+    "whoWin": "Dire",
+    "numberKillsDire": 20,
+    "gameId": 102
+  },
+  "playerId": {
+    "name": "Nikita",
+    "favoriteCharacterName": "Zeus",
+    "rating": 1800,
+    "playerId": 52
+  },
+  "assists": 15
+}
+
+<> 2025-01-17T165637.400.html
+
+###
+
+GET http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T165605.200.json
+
+###
+
+GET http://localhost:8080/LabRest_war/games
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 97
+
+{
+  "gameId": 0,
+  "numberKillsRadiant": 0,
+  "numberKillsDire": 0,
+  "whoWin": "",
+  "time": 0
+}
+
+<> 2025-01-17T165548.200.json
+
+###
+
+POST http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "deaths": 3,
+  "heroName": "Gyrocopter",
+  "playerGameId": 2,
+  "lastHit": 463,
+  "kills": 18,
+  "gameId": 402,
+  "playerId": 2,
+  "assists": 15
+}
+
+<> 2025-01-17T165355.500.html
+
+###
+
+POST http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+  "deaths": 3,
+  "heroName": "Gyrocopter",
+  "playerGameId": 2,
+  "lastHit": 463,
+  "kills": 18,
+  "gameId": 402,
+  "playerId": 2,
+  "assists": 15
+}
+
+<> 2025-01-17T165155.500.html
+
+###
+
+GET http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T164812.200.json
+
+###
+
+GET http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/xml
+Accept: application/xml
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T164717.200.xml
+
+###
+
+POST http://localhost:8080/LabRest_war/games
+Content-Type: application/json
+Accept: application/json
+Content-Length: 92
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+{
+
+  "numberKillsRadiant": 15,
+  "numberKillsDire": 16,
+  "whoWin": "Dire",
+  "time": 1323
+}
+
+<> 2025-01-17T164549.200.json
+
+###
+
+GET http://localhost:8080/LabRest_war/playersGames
+Content-Type: application/json
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-01-17T164531.200.json
+
+###
+

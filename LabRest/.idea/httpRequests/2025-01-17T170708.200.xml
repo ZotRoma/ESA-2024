@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlayerGameStatisticList>
+    <playerGameStatisticList>
+        <playerGameId>2</playerGameId>
+        <heroName>Gyrocopter</heroName>
+        <kills>18</kills>
+        <deaths>3</deaths>
+        <assists>15</assists>
+        <lastHit>463</lastHit>
+    </playerGameStatisticList>
+    <playerGameStatisticList>
+        <playerGameId>1</playerGameId>
+        <heroName>Puck</heroName>
+        <kills>20</kills>
+        <deaths>2</deaths>
+        <assists>13</assists>
+        <lastHit>450</lastHit>
+    </playerGameStatisticList>
+    <playerGameStatisticList>
+        <playerGameId>8</playerGameId>
+        <heroName>Slark</heroName>
+        <kills>12</kills>
+        <deaths>3</deaths>
+        <assists>15</assists>
+        <lastHit>411</lastHit>
+    </playerGameStatisticList>
+    <playerGameStatisticList>
+        <playerGameId>13</playerGameId>
+        <heroName>Gyrocopter</heroName>
+        <kills>18</kills>
+        <deaths>3</deaths>
+        <assists>15</assists>
+        <lastHit>463</lastHit>
+    </playerGameStatisticList>
+</PlayerGameStatisticList>

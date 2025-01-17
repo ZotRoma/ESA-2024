@@ -1,0 +1,17 @@
+com\example\labrest\request\PlayerRequest.class
+com\example\labrest\controller\PlayerGameController.class
+com\example\labrest\model\Game.class
+com\example\labrest\request\GameRequest.class
+com\example\labrest\model\Player.class
+com\example\labrest\controller\PlayerController.class
+com\example\labrest\helper\PlayerList.class
+com\example\labrest\service\PlayerService.class
+com\example\labrest\request\PlayerGameStatisticRequest.class
+com\example\labrest\service\GamePlayerService.class
+com\example\labrest\service\GameService.class
+com\example\labrest\helper\Statistic.class
+com\example\labrest\helper\PlayerGameStatisticList.class
+com\example\labrest\helper\GameList.class
+com\example\labrest\model\PlayerGameStatistic.class
+com\example\labrest\controller\GameController.class
+com\example\labrest\helper\Helper.class
