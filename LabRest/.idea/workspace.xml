@@ -9,17 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b255e401-6fd3-4e53-b590-2aa968dd2c6b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/controller/PlayerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/controller/PlayerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/controller/PlayerGameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/controller/PlayerGameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/model/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/model/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/model/PlayerGameStatistic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/model/PlayerGameStatistic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/service/GamePlayerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/service/GamePlayerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/service/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/service/GameService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/service/PlayerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LabSpring/target/classes/com/example/labspring/service/PlayerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LabSpring/target/test-classes/com/example/demo/JPAPlayerProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LabSpring/target/test-classes/com/example/demo/JPAPlayerProfile.class" afterDir="false" />
-    </list>
+    <list default="true" id="b255e401-6fd3-4e53-b590-2aa968dd2c6b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +82,7 @@
     "Tomcat Server.Tomcat 10.1.31.executor": "Run",
     "git-widget-placeholder": "#2 on main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/ВУЗ/Магистратура/1 Semmestr/KorpSeti/Labs/LabRest/src/main/webapp",
+    "last_opened_file_path": "D:/ВУЗ/Магистратура/1 Semmestr/KorpSeti/Labs/LabJMS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -269,7 +259,7 @@
       <workItem from="1737036269346" duration="2479000" />
       <workItem from="1737038804400" duration="13419000" />
       <workItem from="1737100605291" duration="15833000" />
-      <workItem from="1737130241143" duration="5197000" />
+      <workItem from="1737130241143" duration="6150000" />
     </task>
     <servers />
   </component>
