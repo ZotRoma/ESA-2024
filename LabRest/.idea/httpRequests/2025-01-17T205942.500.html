@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ru">
+<head><title>HTTP Status 500 – Внутренняя ошибка сервера</title>
+    <style type="text/css">body {
+        font-family: Tahoma, Arial, sans-serif;
+    }
+
+    h1, h2, h3, b {
+        color: white;
+        background-color: #525D76;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    a {
+        color: black;
+    }
+
+    .line {
+        height: 1px;
+        background-color: #525D76;
+        border: none;
+    }</style>
+</head>
+<body><h1>HTTP Status 500 – Внутренняя ошибка сервера</h1>
+<hr class="line"/>
+<p><b>Type</b> Exception Report</p>
+<p><b>Message</b> Request processing failed: java.lang.IllegalArgumentException: Parameter value
+    [com.example.labrest.model.Game@60b5e222] did not match expected type
+    [SqmBasicValuedSimplePath(com.example.labrest.model.PlayerGameStatistic(pgs).game)]</p>
+<p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p>
+<p><b>Exception</b></p>
+<pre>jakarta.servlet.ServletException: Request processing failed: java.lang.IllegalArgumentException: Parameter value [com.example.labrest.model.Game@60b5e222] did not match expected type [SqmBasicValuedSimplePath(com.example.labrest.model.PlayerGameStatistic(pgs).game)]
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)
+	org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre>
+<p><b>Root Cause</b></p>
+<pre>java.lang.IllegalArgumentException: Parameter value [com.example.labrest.model.Game@60b5e222] did not match expected type [SqmBasicValuedSimplePath(com.example.labrest.model.PlayerGameStatistic(pgs).game)]
+	org.hibernate.query.internal.QueryParameterBindingImpl.setBindValue(QueryParameterBindingImpl.java:129)
+	org.hibernate.query.spi.AbstractCommonQueryContract.setParameter(AbstractCommonQueryContract.java:829)
+	org.hibernate.query.spi.AbstractSelectionQuery.setParameter(AbstractSelectionQuery.java:595)
+	org.hibernate.query.sqm.internal.QuerySqmImpl.setParameter(QuerySqmImpl.java:1059)
+	org.hibernate.query.sqm.internal.QuerySqmImpl.setParameter(QuerySqmImpl.java:125)
+	com.example.labrest.service.GameService.removeGame(GameService.java:28)
+	java.base&#47;jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	java.base&#47;java.lang.reflect.Method.invoke(Method.java:577)
+	org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	com.example.labrest.service.GameService$$SpringCGLIB$$0.removeGame(&lt;generated&gt;)
+	com.example.labrest.controller.GameController.deleteGame(GameController.java:65)
+	java.base&#47;jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	java.base&#47;java.lang.reflect.Method.invoke(Method.java:577)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre>
+<p><b>Root Cause</b></p>
+<pre>org.hibernate.type.descriptor.java.CoercionException: Cannot coerce value &#39;com.example.labrest.model.Game@60b5e222&#39; [com.example.labrest.model.Game] to Integer
+	org.hibernate.type.descriptor.java.IntegerJavaType.coerce(IntegerJavaType.java:195)
+	org.hibernate.type.descriptor.java.IntegerJavaType.coerce(IntegerJavaType.java:24)
+	org.hibernate.query.internal.QueryParameterBindingImpl.coerce(QueryParameterBindingImpl.java:169)
+	org.hibernate.query.internal.QueryParameterBindingImpl.setBindValue(QueryParameterBindingImpl.java:118)
+	org.hibernate.query.spi.AbstractCommonQueryContract.setParameter(AbstractCommonQueryContract.java:829)
+	org.hibernate.query.spi.AbstractSelectionQuery.setParameter(AbstractSelectionQuery.java:595)
+	org.hibernate.query.sqm.internal.QuerySqmImpl.setParameter(QuerySqmImpl.java:1059)
+	org.hibernate.query.sqm.internal.QuerySqmImpl.setParameter(QuerySqmImpl.java:125)
+	com.example.labrest.service.GameService.removeGame(GameService.java:28)
+	java.base&#47;jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	java.base&#47;java.lang.reflect.Method.invoke(Method.java:577)
+	org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	com.example.labrest.service.GameService$$SpringCGLIB$$0.removeGame(&lt;generated&gt;)
+	com.example.labrest.controller.GameController.deleteGame(GameController.java:65)
+	java.base&#47;jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	java.base&#47;java.lang.reflect.Method.invoke(Method.java:577)
+	org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+</pre>
+<p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p>
+<hr class="line"/>
+<h3>Apache Tomcat/10.1.31</h3></body>
+</html>

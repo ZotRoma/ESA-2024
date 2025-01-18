@@ -1,0 +1,37 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             version="2.1">
+    <persistence-unit name="myPersistence">
+        <!-- Провайдер JPA (Hibernate) -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <!-- Сущности (entity classes) -->
+        <class>com.example.labspring.model.Game</class>
+        <class>com.example.labspring.model.Player</class>
+        <class>com.example.labspring.model.PlayerGameStatistic</class>
+
+<!--         Свойства для подключения к базе данных -->
+        <properties>
+            <!-- Драйвер базы данных -->
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+
+            <!-- URL базы данных -->
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/mydatabase"/>
+
+            <!-- Имя пользователя и пароль -->
+            <property name="javax.persistence.jdbc.user" value="myusername"/>
+            <property name="javax.persistence.jdbc.password" value="mypassword"/>
+
+            <!-- Диалект Hibernate -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+
+            <!-- Автоматическое создание/обновление таблиц -->
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+
+            <!-- Показывать SQL-запросы в логах -->
+            <property name="hibernate.show_sql" value="true"/>
+
+            <!-- Форматировать SQL-запросы для удобства чтения -->
+            <property name="hibernate.format_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>

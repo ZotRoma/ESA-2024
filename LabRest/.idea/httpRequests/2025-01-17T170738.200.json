@@ -1,0 +1,44 @@
+{
+  "playerGameStatisticList": [
+    {
+      "playerGameId": 2,
+      "game": 1,
+      "assists": 15,
+      "lastHit": 463,
+      "deaths": 3,
+      "player": 2,
+      "kills": 18,
+      "heroName": "Gyrocopter"
+    },
+    {
+      "playerGameId": 1,
+      "game": 1,
+      "assists": 13,
+      "lastHit": 450,
+      "deaths": 2,
+      "player": 1,
+      "kills": 20,
+      "heroName": "Puck"
+    },
+    {
+      "playerGameId": 8,
+      "game": 102,
+      "assists": 15,
+      "lastHit": 411,
+      "deaths": 3,
+      "player": 52,
+      "kills": 12,
+      "heroName": "Slark"
+    },
+    {
+      "playerGameId": 13,
+      "game": null,
+      "assists": 15,
+      "lastHit": 463,
+      "deaths": 3,
+      "player": null,
+      "kills": 18,
+      "heroName": "Gyrocopter"
+    }
+  ]
+}

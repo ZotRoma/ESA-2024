@@ -1,0 +1,59 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:jms="http://www.springframework.org/schema/jms"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+                           http://www.springframework.org/schema/jms
+                           https://www.springframework.org/schema/jms/spring-jms.xsd">
+
+    <!-- Сканирование компонентов -->
+    <context:component-scan base-package="com.example.labjms.service"/>
+    <context:component-scan base-package="com.example.labjms.configuration"/>
+    <context:component-scan base-package="com.example.labjms.jms"/>
+    <context:component-scan base-package="com.example.labjms.logging"/>
+
+    <!-- JNDI-конфигурация для TomEE -->
+    <bean id="jndiTemplate" class="org.springframework.jndi.JndiTemplate">
+        <property name="environment">
+            <props>
+                <prop key="java.naming.factory.initial">org.apache.openejb.client.LocalInitialContextFactory</prop>
+            </props>
+        </property>
+    </bean>
+
+    <!-- JMS Connection Factory -->
+    <bean id="connectionFactory" class="org.springframework.jndi.JndiObjectFactoryBean">
+        <property name="jndiTemplate" ref="jndiTemplate"/>
+        <property name="jndiName" value="myJmsConnectionFactory"/>
+        <property name="expectedType" value="jakarta.jms.ConnectionFactory"/>
+    </bean>
+
+    <!-- JMS Destination -->
+    <bean id="destination" class="org.springframework.jndi.JndiObjectFactoryBean">
+        <property name="jndiTemplate" ref="jndiTemplate"/>
+        <property name="jndiName" value="myJmsTopic"/>
+        <property name="expectedType" value="jakarta.jms.Destination"/>
+    </bean>
+
+    <!-- JmsTemplate -->
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="defaultDestination" ref="destination"/>
+    </bean>
+
+    <!-- Обработчик ошибок -->
+    <bean id="defaultErrorHandler" class="com.example.labjms.jms.DefaultErrorHandler" />
+
+    <!-- JmsListenerContainerFactory -->
+    <bean id="jmsListenerContainerFactory" class="org.springframework.jms.config.DefaultJmsListenerContainerFactory">
+        <property name="connectionFactory" ref="connectionFactory"/>
+        <property name="errorHandler" ref="defaultErrorHandler" />
+        <property name="pubSubDomain" value="true" />
+    </bean>
+
+    <!-- Включение JMS-аннотаций -->
+    <jms:annotation-driven/>
+</beans>

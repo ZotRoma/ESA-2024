@@ -1,0 +1,67 @@
+{
+  "playerGameStatisticList": [
+    {
+      "lastHit": 463,
+      "kills": 18,
+      "heroName": "Gyrocopter",
+      "game": {
+        "time": 1980,
+        "numberKillsRadiant": 15,
+        "whoWin": "Dire",
+        "numberKillsDire": 21,
+        "gameId": 1
+      },
+      "deaths": 3,
+      "player": {
+        "name": "Егор",
+        "favoriteCharacterName": "Earthshaker",
+        "playerId": 2,
+        "rating": 3500
+      },
+      "assists": 15,
+      "playerGameId": 2
+    },
+    {
+      "lastHit": 450,
+      "kills": 20,
+      "heroName": "Puck",
+      "game": {
+        "time": 1980,
+        "numberKillsRadiant": 15,
+        "whoWin": "Dire",
+        "numberKillsDire": 21,
+        "gameId": 1
+      },
+      "deaths": 2,
+      "player": {
+        "name": "Roma_",
+        "favoriteCharacterName": "Shtorm Spirit",
+        "playerId": 1,
+        "rating": 5100
+      },
+      "assists": 13,
+      "playerGameId": 1
+    },
+    {
+      "lastHit": 411,
+      "kills": 12,
+      "heroName": "Slark",
+      "game": {
+        "time": 2090,
+        "numberKillsRadiant": 15,
+        "whoWin": "Dire",
+        "numberKillsDire": 20,
+        "gameId": 102
+      },
+      "deaths": 3,
+      "player": {
+        "name": "Nikita",
+        "favoriteCharacterName": "Zeus",
+        "playerId": 52,
+        "rating": 1800
+      },
+      "assists": 15,
+      "playerGameId": 8
+    }
+  ]
+}
